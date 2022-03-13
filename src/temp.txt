@@ -1,0 +1,40 @@
+/* impl Display for TK {
+        fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+            write!(
+                f,
+                "{}",
+                match self {
+                    TK::Let => "'let'",
+                    TK::Fun => "'fun'",
+                    TK::Ident => "identifier",
+                    TK::Assign => "'='",
+                    TK::Arrow => "'=>'",
+                    TK::Semicolon => "';'",
+
+                    TK::Add => "'+'",
+                    TK::Sub => "'-'",
+                    TK::Mul => "'*'",
+                    TK::Div => "'/'",
+
+                    TK::Less => "'<'",
+                    TK::LessEq => "'<='",
+                    TK::Greater => "'>'",
+                    TK::GreatEq => "'>='",
+                    TK::Eq => "'=='",
+                    TK::NotEq => "'!='",
+
+                    TK::Not => "'not'",
+                    TK::And => "'and'",
+                    TK::Or => "'or'",
+
+                    TK::NumLit => "number literal",
+                    TK::StringLit => "string literal",
+                    TK::True => "'true'",
+                    TK::False => "'false'",
+                    TK::UnterminatedStrLit => "unterminated string literal",
+                    TK::Error => "invalid token",
+                }
+            )
+        }
+    } */
+
